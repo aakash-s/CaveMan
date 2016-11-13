@@ -1,0 +1,137 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<STATES>
+	<MENU>
+		<TEXTURES>
+			<texture filename="assets/button.png" id="playButton"/>
+			<texture filename="assets/exit.png" id="exit"/>
+		</TEXTURES>
+		
+		<OBJECTS>
+			<object type="MenuButton" x="100" y="100" width="400" height="100" currentRow = "0" currentFrame = "0" id="playButton"/>
+			<object type="MenuButton" x="100" y="300" width="400" height="100" currentRow = "0" currentFrame = "0" id="exit"/>
+		</OBJECTS>
+	</MENU>
+	
+	<PLAY>                     
+		<TEXTURES>
+			<texture filename="assets/prehistoric.png" id="back"/>
+			<texture filename="assets/snail.png" id="snail"/>
+			<texture filename="assets/health.png" id="health"/>
+			<texture filename="assets/hammer_enemy.png" id="hammer"/>
+			<texture filename="assets/Elephant.png" id="elephant"/>
+			<texture filename="assets/sword_enemy.png" id="sword"/>
+			<texture filename="assets/turtle.png" id="turtle"/>
+			<texture filename="assets/waves.png" id="water"/>
+			<texture filename="assets/snake.png" id="snake"/>
+			<texture filename="assets/lion.png" id="lion"/>
+			<texture filename="assets/dragon.png" id="dragon"/>
+			<texture filename="assets/candy1.png" id="pickup"/>
+			<texture filename="assets/candy2.png" id="pickup2"/>
+			<texture filename="assets/Text_health.png" id="health_text"/>
+			
+		</TEXTURES>
+		
+		<OBJECTS>
+			<object type="background" x="0" y="0" width="640" height="480" currentRow="0" currentFrame="0" id="back"/>
+			
+			<object type="snail" x="650" y="398" width="40" height="51" currentRow="0" currentFrame="0" id="snail"/>
+			<object type="snail" x="700" y="398" width="40" height="51" currentRow="0" currentFrame="0" id="snail"/>
+			<object type="snail" x="600" y="398" width="40" height="51" currentRow="0" currentFrame="0" id="snail"/>
+			<object type="snail" x="1235" y="398" width="40" height="51" currentRow="0" currentFrame="0" id="snail"/>
+			
+			<object type="health" x="20" y="100" width="100" height="10" currentRow="0" currentFrame="0" id="health"/>
+			<object type="health" x="400" y="500" width="98" height="28" currentRow="0" currentFrame="0" id="health_text"/>
+			
+			<object type="hammerMan" x="2900" y="355" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="3300" y="355" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="5100" y="390" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="3100" y="355" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			
+			<object type="hammerMan" x="3635" y="355" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+			<object type="hammerMan" x="3500" y="355" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+			<object type="hammerMan" x="5000" y="390" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+			
+			<object type="hammerMan" x="10820" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="11020" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="10870" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			<object type="hammerMan" x="11060" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="hammer"/>
+			
+			<object type="hammerMan" x="10830" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+			<object type="hammerMan" x="10860" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+			<object type="hammerMan" x="11030" y="67" width="60" height="61" currentRow="0" currentFrame="0" id="sword"/>
+
+			
+			<object type="Elephant" x="8700" y="255" width="200" height="180" currentRow="0" currentFrame="0" id="elephant"/>
+			<object type="Elephant" x="11815" y="390" width="100" height="62" currentRow="0" currentFrame="0" id="lion"/>
+			<object type="Elephant" x="11775" y="390" width="100" height="62" currentRow="0" currentFrame="0" id="lion"/>
+			<object type="Elephant" x="11835" y="390" width="100" height="62" currentRow="0" currentFrame="0" id="lion"/>
+			
+			<object type="Elephant" x="11815" y="160" width="110" height="62" currentRow="0" currentFrame="0" id="dragon"/>
+			<object type="Elephant" x="11825" y="210" width="110" height="62" currentRow="0" currentFrame="0" id="dragon"/>   
+			<object type="Elephant" x="11785" y="230" width="110" height="62" currentRow="0" currentFrame="0" id="dragon"/>
+			<object type="Elephant" x="11845" y="170" width="110" height="62" currentRow="0" currentFrame="0" id="dragon"/>
+			
+			<object type="Water" x="9214" y="390" width="995" height="100" currentRow="0" currentFrame="0" id="water"/>
+			
+			<object type="Turtle" x="9314" y="375" width="92" height="51" currentRow="0" currentFrame="0" id="turtle"/>
+	
+			<object type="snail" x="1530" y="398" width="90" height="52" currentRow="0" currentFrame="0" id="snake"/>
+			<object type="snail" x="825" y="398" width="90" height="52" currentRow="0" currentFrame="0" id="snake"/>
+			<object type="snail" x="7765" y="398" width="90" height="52" currentRow="0" currentFrame="0" id="snake"/>
+			<object type="snail" x="990" y="398" width="90" height="52" currentRow="0" currentFrame="0" id="snake"/>
+			
+			<object type="Pickup" x="765" y="345" width="29" height="37" currentRow="0" currentFrame="0" id="pickup"/>
+			<object type="Pickup" x="1915" y="250" width="29" height="37" currentRow="0" currentFrame="0" id="pickup"/>
+			<object type="Pickup" x="5010" y="100" width="29" height="37" currentRow="0" currentFrame="0" id="pickup"/>
+			<object type="Pickup" x="2290" y="400" width="29" height="37" currentRow="0" currentFrame="0" id="pickup"/>
+		
+			<object type="Pickup" x="12005" y="230" width="37" height="45" currentRow="0" currentFrame="0" id="pickup2"/>
+			<object type="Pickup" x="11990" y="230" width="37" height="35" currentRow="0" currentFrame="0" id="pickup2"/>
+			<object type="Pickup" x="11880" y="230" width="37" height="45" currentRow="0" currentFrame="0" id="pickup2"/>
+			<object type="Pickup" x="11770" y="230" width="37" height="45" currentRow="0" currentFrame="0" id="pickup2"/>
+			<object type="Pickup" x="11660" y="230" width="37" height="45" currentRow="0" currentFrame="0" id="pickup2"/>
+			
+		
+		</OBJECTS>
+	</PLAY>
+	
+	<PAUSE>
+		<TEXTURES>
+			<texture filename="assets/main.png" id="main"/>
+			<texture filename="assets/resume.png" id="resume"/>
+		</TEXTURES>
+		
+		<OBJECTS>
+			<object type="MenuButton" x="200" y="100" width="200" height="80" currentRow = "0" currentFrame="0" id="main"/>
+			<object type="MenuButton" x="200" y="300" width="200" height="80" currentRow = "0" currentFrame="0" id="resume"/>
+		</OBJECTS>
+	</PAUSE>
+	
+	<GAMEOVER>
+		<TEXTURES>
+			<texture filename="assets/main.png" id="main"/>
+			<texture filename="assets/restart.png" id="restart"/>
+			<texture filename="assets/gameover.png" id="gameOver"/>
+		</TEXTURES>
+		
+		<OBJECTS>
+			<object type="MenuButton" x="200" y="200" width="200" height="80" currentRow="0" currentFrame="0" id="main"/>
+			<object type="MenuButton" x="200" y="300" width="200" height="80" currentRow="0" currentFrame="0" id="restart"/>
+			<object type="Animation" x="200" y="100" width="190" height="30" currentRow="0" currentFrame="0" id="gameOver"/>
+		</OBJECTS>
+	</GAMEOVER>
+	
+	<GAMEWON>
+		<TEXTURES>
+			<texture filename="assets/main.png" id="main"/>
+			<texture filename="assets/restart.png" id="restart"/>
+			<texture filename="assets/WON.png" id="gameOver"/>
+		</TEXTURES>
+		
+		<OBJECTS>
+			<object type="MenuButton" x="200" y="200" width="200" height="80" currentRow="0" currentFrame="0" id="main"/>
+			<object type="MenuButton" x="200" y="300" width="200" height="80" currentRow="0" currentFrame="0" id="restart"/>
+			<object type="Animation" x="150" y="50" width="350" height="120" currentRow="0" currentFrame="0" id="gameOver"/>
+		</OBJECTS>
+	</GAMEWON>
+<STATES>
